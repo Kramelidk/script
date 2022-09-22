@@ -22,7 +22,7 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
+Frame.BackgroundColor3 = Color3.fromRGB(0,0,0)
 Frame.Position = UDim2.new(0, 430, 0, 200)
 Frame.Size = UDim2.new(0, 414, 0, 300)
 Frame.Active = true
@@ -30,7 +30,7 @@ Frame.Draggable = true
 
 BigHead.Name = "BigHead"
 BigHead.Parent = Frame
-BigHead.BackgroundColor3 = Color3.fromRGB(125, 125, 125)
+BigHead.BackgroundColor3 = Color3.fromRGB(255,0,0)
 BigHead.Position = UDim2.new(0.00497527188, 0, 0.180450917, 0)
 BigHead.Size = UDim2.new(0, 200, 0, 49)
 BigHead.Font = Enum.Font.Ubuntu
@@ -47,8 +47,9 @@ UICorner.Parent = BigHead
 UICorner_2.Parent = Frame
 
 TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(153, 153, 153)
-TextLabel.Size = UDim2.new(0, 378, 0, 50)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255,0,0)
+TextLabel.Size = UDim2.new(0, 378, 0, 45)
+TextLabel.Position = UDim2.new(0.00500000, 0, 0.00100000, 2)
 TextLabel.Font = Enum.Font.SourceSans
 TextLabel.Text = "Kramel's Script Hub"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -60,13 +61,13 @@ UICorner_3.Parent = TextLabel
 
 close.Name = "close"
 close.Parent = Frame
-close.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
+close.BackgroundColor3 = Color3.fromRGB(0,0,0)
 close.Position = UDim2.new(0.92008612, 0, 0.00772200758, 2)
 close.Size = UDim2.new(0, 28, 0, 41)
 close.AutoButtonColor = false
 close.Font = Enum.Font.Oswald
 close.Text = "X"
-close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextColor3 = Color3.fromRGB(255, 0, 0)
 close.TextSize = 38.000
 close.TextWrapped = true
 close.MouseButton1Down:Connect(function()
@@ -77,7 +78,7 @@ UICorner_4.Parent = close
 
 Tall.Name = "Tall"
 Tall.Parent = Frame
-Tall.BackgroundColor3 = Color3.fromRGB(125, 125, 125)
+Tall.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Tall.Position = UDim2.new(0.00499999989, 0, 0.395000012, 0)
 Tall.Size = UDim2.new(0, 200, 0, 49)
 Tall.Font = Enum.Font.Ubuntu
@@ -146,7 +147,7 @@ UICorner_5.Parent = Tall
 
 HoHoHub.Name = "HoHoHub"
 HoHoHub.Parent = Frame
-HoHoHub.BackgroundColor3 = Color3.fromRGB(125, 125, 125)
+HoHoHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 HoHoHub.Position = UDim2.new(0.00499999989, 0, 0.61200002, 0)
 HoHoHub.Size = UDim2.new(0, 200, 0, 49)
 HoHoHub.Font = Enum.Font.Ubuntu
@@ -162,7 +163,7 @@ UICorner_6.Parent = HoHoHub
 
 BloxFruitHub.Name = "BloxFruitHub"
 BloxFruitHub.Parent = Frame
-BloxFruitHub.BackgroundColor3 = Color3.fromRGB(125, 125, 125)
+BloxFruitHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 BloxFruitHub.Position = UDim2.new(0.00499999989, 0, 0.82900002, 0)
 BloxFruitHub.Size = UDim2.new(0, 200, 0, 49)
 BloxFruitHub.Font = Enum.Font.Ubuntu
@@ -178,7 +179,7 @@ UICorner_7.Parent = BloxFruitHub
 
 Char.Name = "Char"
 Char.Parent = Frame
-Char.BackgroundColor3 = Color3.fromRGB(125, 125, 125)
+Char.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Char.Position = UDim2.new(0.50605054376, 0, 0.180450917, 0)
 Char.Size = UDim2.new(0, 200, 0, 49)
 Char.Font = Enum.Font.Ubuntu
@@ -207,7 +208,7 @@ UICorner_8.Parent = Char
 
 inf.Name = "inf"
 inf.Parent = Frame
-inf.BackgroundColor3 = Color3.fromRGB(125, 125, 125)
+inf.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 inf.Position = UDim2.new(0.50605054376, 0, 0.395000012, 0)
 inf.Size = UDim2.new(0, 200, 0, 49)
 inf.Font = Enum.Font.Ubuntu
