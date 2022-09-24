@@ -193,7 +193,6 @@ Char.MouseButton1Down:Connect(function()
     --[[
      Enable Reset Character
      By: OpenGamerTips
-
      NOTE:
      This script enables the abillity to reset your character, but this script executes the enabler every split second.
      Do not execute the script again, as it will stress your script executor.
@@ -254,5 +253,5 @@ afk.MouseButton1Down:Connect(function()
     game:service'Players'.LocalPlayer.Idled:connect(function()
     bb:CaptureController()bb:ClickButton2(Vector2.new())
     ab.Text="Kick Reflected! Re-Enabling Script..."wait(2)ab.Text="Script Re-Enabled"end)
-
+end)
 UICorner_10.Parent = afk
