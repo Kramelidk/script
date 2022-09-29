@@ -19,6 +19,14 @@ local inf = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
 local afk = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
+local cs = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local new = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local new1 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local made = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -26,14 +34,14 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(0,0,0)
 Frame.Position = UDim2.new(0, 430, 0, 200)
-Frame.Size = UDim2.new(0, 414, 0, 300)
+Frame.Size = UDim2.new(0, 414, 0, 349)
 Frame.Active = true
 Frame.Draggable = true
 
 BigHead.Name = "BigHead"
 BigHead.Parent = Frame
 BigHead.BackgroundColor3 = Color3.fromRGB(255,0,0)
-BigHead.Position = UDim2.new(0.00497527188, 0, 0.180450917, 0)
+BigHead.Position = UDim2.new(0.00497527188, 0, 0.150450917, 0)
 BigHead.Size = UDim2.new(0, 200, 0, 49)
 BigHead.Font = Enum.Font.Ubuntu
 BigHead.Text = "FE Big Head V3"
@@ -81,7 +89,7 @@ UICorner_4.Parent = close
 Tall.Name = "Tall"
 Tall.Parent = Frame
 Tall.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Tall.Position = UDim2.new(0.00499999989, 0, 0.395000012, 0)
+Tall.Position = UDim2.new(0.00499999989, 0, 0.315000012, 0)
 Tall.Size = UDim2.new(0, 200, 0, 49)
 Tall.Font = Enum.Font.Ubuntu
 Tall.Text = "FE Tall"
@@ -150,7 +158,7 @@ UICorner_5.Parent = Tall
 HoHoHub.Name = "HoHoHub"
 HoHoHub.Parent = Frame
 HoHoHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-HoHoHub.Position = UDim2.new(0.00499999989, 0, 0.61200002, 0)
+HoHoHub.Position = UDim2.new(0.00499999989, 0, 0.47500002, 0)
 HoHoHub.Size = UDim2.new(0, 200, 0, 49)
 HoHoHub.Font = Enum.Font.Ubuntu
 HoHoHub.Text = "HoHo Hub"
@@ -166,7 +174,7 @@ UICorner_6.Parent = HoHoHub
 BloxFruitHub.Name = "BloxFruitHub"
 BloxFruitHub.Parent = Frame
 BloxFruitHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-BloxFruitHub.Position = UDim2.new(0.00499999989, 0, 0.82900002, 0)
+BloxFruitHub.Position = UDim2.new(0.00499999989, 0, 0.63500002, 0)
 BloxFruitHub.Size = UDim2.new(0, 200, 0, 49)
 BloxFruitHub.Font = Enum.Font.Ubuntu
 BloxFruitHub.Text = "Blox Fruit Hub"
@@ -182,7 +190,7 @@ UICorner_7.Parent = BloxFruitHub
 Char.Name = "Char"
 Char.Parent = Frame
 Char.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Char.Position = UDim2.new(0.50605054376, 0, 0.180450917, 0)
+Char.Position = UDim2.new(0.50605054376, 0, 0.150450917, 0)
 Char.Size = UDim2.new(0, 200, 0, 49)
 Char.Font = Enum.Font.Ubuntu
 Char.Text = "Bypass char reset"
@@ -210,7 +218,7 @@ UICorner_8.Parent = Char
 inf.Name = "inf"
 inf.Parent = Frame
 inf.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-inf.Position = UDim2.new(0.50605054376, 0, 0.395000012, 0)
+inf.Position = UDim2.new(0.50605054376, 0, 0.315000012, 0)
 inf.Size = UDim2.new(0, 200, 0, 49)
 inf.Font = Enum.Font.Ubuntu
 inf.Text = "Infinite Yield"
@@ -226,7 +234,7 @@ UICorner_9.Parent = inf
 afk.Name = "afk"
 afk.Parent = Frame
 afk.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-afk.Position = UDim2.new(0.50605054376, 0, 0.61200002, 0)
+afk.Position = UDim2.new(0.50605054376, 0, 0.47500002, 0)
 afk.Size = UDim2.new(0, 200, 0, 49)
 afk.Font = Enum.Font.Ubuntu
 afk.Text = "Anti-Afk"
@@ -255,3 +263,65 @@ afk.MouseButton1Down:Connect(function()
     ab.Text="Kick Reflected! Re-Enabling Script..."wait(2)ab.Text="Script Re-Enabled"end)
 end)
 UICorner_10.Parent = afk
+
+
+cs.Name = "cs"
+cs.Parent = Frame
+cs.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+cs.Position = UDim2.new(0.50605054376, 0, 0.63500002, 0)
+cs.Size = UDim2.new(0, 200, 0, 49)
+cs.Font = Enum.Font.Ubuntu
+cs.Text = "Chest Farm"
+cs.TextColor3 = Color3.fromRGB(0, 0, 0)
+cs.TextSize = 25.000
+cs.TextWrapped = true
+cs.MouseButton1Down:Connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/autochest'))()
+end)
+
+UICorner_11.Parent = cs
+
+new.Name = "new"
+new.Parent = Frame
+new.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+new.Position = UDim2.new(0.50605054376, 0, 0.79500002, 0)
+new.Size = UDim2.new(0, 200, 0, 49)
+new.Font = Enum.Font.Ubuntu
+new.Text = "coming soon..."
+new.TextColor3 = Color3.fromRGB(0, 0, 0)
+new.TextSize = 25.000
+new.TextWrapped = true
+new.MouseButton1Down:Connect(function()
+    
+end)
+
+UICorner_12.Parent = new
+
+new1.Name = "new1"
+new1.Parent = Frame
+new1.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+new1.Position = UDim2.new(0.00497527188, 0, 0.79500002, 0)
+new1.Size = UDim2.new(0, 200, 0, 49)
+new1.Font = Enum.Font.Ubuntu
+new1.Text = "coming soon..."
+new1.TextColor3 = Color3.fromRGB(0, 0, 0)
+new1.TextSize = 25.000
+new1.TextWrapped = true
+new1.MouseButton1Down:Connect(function()
+    
+end)
+
+UICorner_13.Parent = new1
+
+
+made.Parent = Frame
+made.BackgroundColor3 = Color3.fromRGB(0,0,0)
+made.Size = UDim2.new(0, 411, 0, 10)
+made.Position = UDim2.new(0.00500000, 0, 0.95000002, 2)
+made.Font = Enum.Font.SourceSans
+made.Text = "Script Made By Kramel"
+made.TextColor3 = Color3.fromRGB(255, 255, 255)
+made.TextSize = 17.000
+made.TextWrapped = true
+
+UICorner_14.Parent = made
