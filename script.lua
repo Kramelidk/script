@@ -290,12 +290,12 @@ new.BackgroundColor3 = Color3.fromRGB(30,144,255)
 new.Position = UDim2.new(0.50605054376, 0, 0.79500002, 0)
 new.Size = UDim2.new(0, 200, 0, 49)
 new.Font = Enum.Font.Ubuntu
-new.Text = "coming soon..."
+new.Text = "Arsenal Hacks"
 new.TextColor3 = Color3.fromRGB(0, 0, 0)
 new.TextSize = 25.000
 new.TextWrapped = true
 new.MouseButton1Down:Connect(function()
-    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 end)
 
 UICorner_12.Parent = new
