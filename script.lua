@@ -43,7 +43,7 @@ Frame.Draggable = true
 
 BigHead.Name = "BigHead"
 BigHead.Parent = Frame
-BigHead.BackgroundColor3 = Color3.fromRGB(255,0,0)
+BigHead.BackgroundColor3 = Color3.fromRGB(17, 103, 177)
 BigHead.Position = UDim2.new(0.00497527188, 0, 0.150450917, 0)
 BigHead.Size = UDim2.new(0, 200, 0, 49)
 BigHead.Font = Enum.Font.Ubuntu
@@ -60,7 +60,7 @@ UICorner.Parent = BigHead
 UICorner_2.Parent = Frame
 
 TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(255,0,0)
+TextLabel.BackgroundColor3 = Color3.fromRGB(17, 103, 177)
 TextLabel.Size = UDim2.new(0, 378, 0, 45)
 TextLabel.Position = UDim2.new(0.00500000, 0, 0.00100000, 2)
 TextLabel.Font = Enum.Font.SourceSans
@@ -80,7 +80,7 @@ close.Size = UDim2.new(0, 28, 0, 41)
 close.AutoButtonColor = false
 close.Font = Enum.Font.Oswald
 close.Text = "X"
-close.TextColor3 = Color3.fromRGB(255, 0, 0)
+close.TextColor3 = Color3.fromRGB(17, 103, 177)
 close.TextSize = 38.000
 close.TextWrapped = true
 close.MouseButton1Down:Connect(function()
@@ -91,7 +91,7 @@ UICorner_4.Parent = close
 
 Tall.Name = "Tall"
 Tall.Parent = Frame
-Tall.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Tall.BackgroundColor3 = Color3.fromRGB(17, 103, 177)
 Tall.Position = UDim2.new(0.00499999989, 0, 0.315000012, 0)
 Tall.Size = UDim2.new(0, 200, 0, 49)
 Tall.Font = Enum.Font.Ubuntu
@@ -160,7 +160,7 @@ UICorner_5.Parent = Tall
 
 HoHoHub.Name = "HoHoHub"
 HoHoHub.Parent = Frame
-HoHoHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+HoHoHub.BackgroundColor3 = Color3.fromRGB(17, 103, 177)
 HoHoHub.Position = UDim2.new(0.00499999989, 0, 0.47500002, 0)
 HoHoHub.Size = UDim2.new(0, 200, 0, 49)
 HoHoHub.Font = Enum.Font.Ubuntu
@@ -176,7 +176,7 @@ UICorner_6.Parent = HoHoHub
 
 BloxFruitHub.Name = "BloxFruitHub"
 BloxFruitHub.Parent = Frame
-BloxFruitHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+BloxFruitHub.BackgroundColor3 = Color3.fromRGB(17, 103, 177)
 BloxFruitHub.Position = UDim2.new(0.00499999989, 0, 0.63500002, 0)
 BloxFruitHub.Size = UDim2.new(0, 200, 0, 49)
 BloxFruitHub.Font = Enum.Font.Ubuntu
@@ -192,7 +192,7 @@ UICorner_7.Parent = BloxFruitHub
 
 Char.Name = "Char"
 Char.Parent = Frame
-Char.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Char.BackgroundColor3 = Color3.fromRGB(17, 103, 177)
 Char.Position = UDim2.new(0.50605054376, 0, 0.150450917, 0)
 Char.Size = UDim2.new(0, 200, 0, 49)
 Char.Font = Enum.Font.Ubuntu
@@ -220,7 +220,7 @@ UICorner_8.Parent = Char
 
 inf.Name = "inf"
 inf.Parent = Frame
-inf.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+inf.BackgroundColor3 = Color3.fromRGB(17, 103, 177)
 inf.Position = UDim2.new(0.50605054376, 0, 0.315000012, 0)
 inf.Size = UDim2.new(0, 200, 0, 49)
 inf.Font = Enum.Font.Ubuntu
@@ -236,7 +236,7 @@ UICorner_9.Parent = inf
 
 afk.Name = "afk"
 afk.Parent = Frame
-afk.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+afk.BackgroundColor3 = Color3.fromRGB(17, 103, 177)
 afk.Position = UDim2.new(0.50605054376, 0, 0.47500002, 0)
 afk.Size = UDim2.new(0, 200, 0, 49)
 afk.Font = Enum.Font.Ubuntu
@@ -270,7 +270,7 @@ UICorner_10.Parent = afk
 
 cs.Name = "cs"
 cs.Parent = Frame
-cs.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+cs.BackgroundColor3 = Color3.fromRGB(17, 103, 177)
 cs.Position = UDim2.new(0.50605054376, 0, 0.63500002, 0)
 cs.Size = UDim2.new(0, 200, 0, 49)
 cs.Font = Enum.Font.Ubuntu
@@ -286,7 +286,7 @@ UICorner_11.Parent = cs
 
 new.Name = "new"
 new.Parent = Frame
-new.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+new.BackgroundColor3 = Color3.fromRGB(17, 103, 177)
 new.Position = UDim2.new(0.50605054376, 0, 0.79500002, 0)
 new.Size = UDim2.new(0, 200, 0, 49)
 new.Font = Enum.Font.Ubuntu
@@ -302,7 +302,7 @@ UICorner_12.Parent = new
 
 new1.Name = "new1"
 new1.Parent = Frame
-new1.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+new1.BackgroundColor3 = Color3.fromRGB(17, 103, 177)
 new1.Position = UDim2.new(0.00497527188, 0, 0.79500002, 0)
 new1.Size = UDim2.new(0, 200, 0, 49)
 new1.Font = Enum.Font.Ubuntu
