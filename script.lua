@@ -27,6 +27,9 @@ local new1 = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
 local made = Instance.new("TextLabel")
 local UICorner_14 = Instance.new("UICorner")
+local Framee = Instance.new("Frame")
+local lol = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -317,7 +320,7 @@ UICorner_13.Parent = new1
 made.Parent = Frame
 made.BackgroundColor3 = Color3.fromRGB(0,0,0)
 made.Size = UDim2.new(0, 411, 0, 10)
-made.Position = UDim2.new(0.00500000, 0, 0.95000002, 2)
+made.Position = UDim2.new(0.00500000, 0, 0.94500002, 2)
 made.Font = Enum.Font.SourceSans
 made.Text = "Script Made By Kramel"
 made.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -325,3 +328,39 @@ made.TextSize = 17.000
 made.TextWrapped = true
 
 UICorner_14.Parent = made
+
+local function IBNPEM_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local FrameObject = script.Parent.Frame
+	local Open = false
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	UserInputService.InputBegan:Connect(function(input, gameprocess)
+	if not gameprocess then
+	if input.KeyCode == Enum.KeyCode.P then
+	if Open then
+	Open = false
+	script.Parent.Frame.Visible = true
+	else
+	Open = true
+	script.Parent.Frame.Visible = false
+	end
+	end
+	end
+	end)
+	
+end
+coroutine.wrap(IBNPEM_fake_script)()
+
+lol.Parent = Frame
+lol.BackgroundColor3 = Color3.fromRGB(0,0,0)
+lol.Size = UDim2.new(0, 75, 0, 12)
+lol.Position = UDim2.new(0.00500000, 0, 0.94500002, 2)
+lol.Font = Enum.Font.SourceSans
+lol.Text = "P To Toggle"
+lol.TextColor3 = Color3.fromRGB(255, 255, 255)
+lol.TextSize = 14.000
+lol.TextWrapped = true
+UICorner_15.Parent = lol
